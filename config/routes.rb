@@ -5,7 +5,11 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'places#index'
 
-  resources :places, only: [:index]
+  resources :places, only: [:index] do
+    member do
+      get 'pictures' => 'pictures#for_place'
+    end
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
