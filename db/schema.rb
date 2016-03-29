@@ -11,7 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160329212618) do
+ActiveRecord::Schema.define(version: 20160329222238) do
+
+  create_table "likes", force: :cascade do |t|
+    t.integer "place_id"
+    t.string  "device_token"
+  end
 
   create_table "pictures", force: :cascade do |t|
     t.string  "url"
@@ -26,7 +31,6 @@ ActiveRecord::Schema.define(version: 20160329212618) do
     t.decimal "latitude"
     t.decimal "longitude"
     t.string  "description"
-    t.integer "likes",           default: 0
     t.date    "visit_date"
     t.integer "main_picture_id"
   end
