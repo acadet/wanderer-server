@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :places, only: [:index] do
     member do
       get 'pictures' => 'pictures#for_place'
+      put 'like' => 'likes#toggle'
     end
   end
 
