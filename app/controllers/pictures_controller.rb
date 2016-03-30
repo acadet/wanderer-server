@@ -1,6 +1,6 @@
 class PicturesController < ApplicationController
   def for_place
-    place_id = params[:id]
+    place_id = params[:id].to_i
     p        = Place.all.select { |e| e.id == place_id }.first
     status   = if p.nil? then
                  :not_found

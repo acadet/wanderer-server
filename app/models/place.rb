@@ -9,6 +9,7 @@ class Place < ActiveRecord::Base
     hash                = super.as_json options
     hash[:likes]        = likes.count
     hash[:main_picture] = main_picture.as_json unless main_picture_id.nil?
+    hash.delete "main_picture_id"
     hash
   end
 end
