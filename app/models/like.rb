@@ -10,4 +10,8 @@ class Like < ActiveRecord::Base
       l.destroy
     end
   end
+
+  def self.like?(place_id, token)
+    all.select { |e| e.device_token == token && e.place_id == place_id }.first != nil
+  end
 end
