@@ -1,7 +1,7 @@
 class Place < ActiveRecord::Base
   has_many :pictures
   has_many :likes
-  has_one :main_picture, class_name: "Picture"
+  has_one :main_picture, class_name: "Picture", foreign_key: :id
 
   scope :by_visit_date, -> { order(visit_date: :desc) }
 
