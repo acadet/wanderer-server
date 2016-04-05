@@ -1,4 +1,13 @@
 class PicturesController < ApplicationController
+  def index
+    @pictures = Picture.all
+
+    respond_to do |f|
+      f.html
+      f.json { render json: @pictures, status: status }
+    end
+  end
+
   def for_place
     place_id = params[:id].to_i
     p        = Place.all.select { |e| e.id == place_id }.first
