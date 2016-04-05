@@ -5,8 +5,8 @@ class PlacesController < ApplicationController
     if request.headers.key? :deviceToken
       device_token = request.headers[:deviceToken]
       @places      = @places.map do |e|
-        f              = e.as_json
-        f[:is_linking] = Like.like? e.id, device_token
+        f             = e.as_json
+        f[:is_liking] = Like.like?(e.id, device_token)
         f
       end
     end
