@@ -168,7 +168,7 @@ places = [
         country:         "USA",
         latitude:        36.270421,
         longitude:       -121.807976,
-        description:     "",
+        description:     "Amazing step in a road trip on the 1 from San Francisco to Los Angeles. The journey is not that long but you can easily spend 6 or 7 hours in this outstanding area. You will stop so many times to observe the different landscapes full of small and cute bridges, turquoise creeks or stony hills. If you are lucky, you might see whales, lion or elephants seal hanging out near the coast!",
         visit_date:      "2015-08-01",
         main_picture_id: 1
     },
@@ -178,8 +178,8 @@ places = [
         country:         "USA",
         latitude:        34.052234,
         longitude:       -118.243685,
-        description:     "",
-        visit_date:      "2015-08-01",
+        description:     "Not my favorite city in the world, but it is worth it to halt there. Check out Hollywood, hang out on Venice Beach, enjoy the sun in Santa Monica. If you are a foodie or a night lover, restaurants, bars and nightclubs abound.",
+        visit_date:      "2015-08-02",
         main_picture_id: 3
     },
     {
@@ -188,7 +188,7 @@ places = [
         country:         "USA",
         latitude:        40.712784,
         longitude:       -74.005941,
-        description:     "",
+        description:     "As a European, NYC is a childhood dream. Walking among the skyscrapers, in the interminable streets and visiting all these places you saw as a kid or a teenager in any movie is astounding. Just walk or have a taxi to enjoy the most of this city. Have a bagel, go to Broadway, go aboard a ferry to have a full experience.",
         visit_date:      "2015-04-01",
         main_picture_id: 6
     },
@@ -198,7 +198,7 @@ places = [
         country:         "USA",
         latitude:        41.878114,
         longitude:       -87.629798,
-        description:     "",
+        description:     "On my way back for San Francisco from NYC, I decided to visit some friends of mine in Chicago. I only spent few days there, but it is a truly amazing city. If I ever have to move to the East Coast, I will really consider this city. But be careful: the winter is strong over there.",
         visit_date:      "2015-04-10",
         main_picture_id: 9
     },
@@ -208,7 +208,7 @@ places = [
         country:         "USA",
         latitude:        36.054445,
         longitude:       -112.140111,
-        description:     "",
+        description:     "One of the most fantastic thing in the word, in my humble opinion. I can keep looking for hours at the cliffs. Your brain will automatically start trying to figure out how to reach the other side. But do not hope too much. Spanish conquistadores already tried and dramatically failed. If you can, stay for the sunset and admirez la beauté du paysage. There is no other comparable experience in this world.",
         visit_date:      "2015-05-01",
         main_picture_id: 10
     },
@@ -218,7 +218,7 @@ places = [
         country:         "USA",
         latitude:        37.004245,
         longitude:       -110.173478,
-        description:     "",
+        description:     "Incontournable if you are a huge fan of Western movies. Driving your car between these huge rocks is a fantastic experience. You will spend hours there trying to imagine Navajos fighting other native American tributes or the settlers in these plains. You also should stop by the Navajo Museum.",
         visit_date:      "2015-05-02",
         main_picture_id: 14
     },
@@ -228,7 +228,7 @@ places = [
         country:         "USA",
         latitude:        37.628316,
         longitude:       -112.167695,
-        description:     "",
+        description:     "Maybe my favorite canyon in the US. The architecture of these cliffs are wonderer and astounding in the meantime. The Rangers are doing a really great job in monitoring the park. You might see some of the local wildlife such as dears or chipmunks. Also, so many hikes are available there. I strongly advise hiking among the natural corridors of the canyon.",
         visit_date:      "2015-05-04",
         main_picture_id: 15
     },
@@ -238,7 +238,7 @@ places = [
         country:         "USA",
         latitude:        37.068262,
         longitude:       -111.243311,
-        description:     "",
+        description:     "Not a mandatory milestone on a road trip in Utah but it is still great. The Horseshoe Bend rock is pretty amazing to see.",
         visit_date:      "2015-05-03",
         main_picture_id: 17
     },
@@ -248,7 +248,7 @@ places = [
         country:         "USA",
         latitude:        36.532265,
         longitude:       -116.932541,
-        description:     "",
+        description:     "What a desert! When you are in, you instantly understand the name. It is extremely hot and the last thing you want you to happen is breaking down. Going there is a great experience: you definitely feel on another planet. That's why so many sci fi movies are shot there.",
         visit_date:      "2015-05-05",
         main_picture_id: 18
     },
@@ -258,7 +258,7 @@ places = [
         country:         "USA",
         latitude:        37.865101,
         longitude:       -119.538329,
-        description:     "",
+        description:     "The best place in the US, according to Americans (or Californians). The valley is simply exceptional. I strongly advise to hike over there. You have different itineraries, some of them require 2 or 3 days to be completed. The waterfalls are also breathtaking. If you are lucky (or not, depending on your point of view), you might see black bears or mountain lions on your way.",
         visit_date:      "2015-05-06",
         main_picture_id: 20
     },
@@ -268,7 +268,7 @@ places = [
         country:         "USA",
         latitude:        38.2917988,
         longitude:       -120.6855901,
-        description:     "",
+        description:     "I did some hiking for 2 days in this part of the Sierra Nevada (and camped for a night). It was really nice. You can observe so many different landscapes and the region is not overpacked, compared to other areas such as Yosemite.",
         visit_date:      "2015-07-01",
         main_picture_id: 23
     },
@@ -278,7 +278,7 @@ places = [
         country:         "UK",
         latitude:        51.507351,
         longitude:       -0.127758,
-        description:     "",
+        description:     "I lived in London for a few months. It is a such remarkable city. Have a picnic in one of the several public parks, visit the National Gallery (any museum is free), get some fudge in Chelsea, attend a soccer game in whatever neighborhood you prefer and, of course, have some gulps of the best beers in the world.",
         visit_date:      "2013-06-01",
         main_picture_id: 25
     },
@@ -288,7 +288,7 @@ places = [
         country:         "Ireland",
         latitude:        53.349805,
         longitude:       -6.260310,
-        description:     "",
+        description:     "A great city for a 2-day trip. Walk near the Liffey River, have a beer at the Church, enjoy a fantastic dinner at the Bank, visit Trinity College and, above all, listen. Listen to the melodic accent of the Irish people.",
         visit_date:      "2013-05-01",
         main_picture_id: 28
     },
@@ -298,7 +298,7 @@ places = [
         country:         "Spain",
         latitude:        41.385064,
         longitude:       2.173403,
-        description:     "",
+        description:     "Such an amazing city. I walked for hours in these long avenues, catching some Gaudi' houses, markets and churches. 3 places to visit there? The Sagrada Familia, the Guel Park and the Palau Nacional. If you missed these guys when you were in town, you did it all wrong.",
         visit_date:      "2014-08-01",
         main_picture_id: 30
     }
