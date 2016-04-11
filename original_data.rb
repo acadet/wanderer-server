@@ -306,3 +306,114 @@ places = [
 
 places.each { |e| Place.new(e).save }
 pictures.each { |e| Picture.new(e).save }
+
+places = [
+    {
+        id:              15,
+        name:            "Ile Rousse",
+        country:         "Corsica",
+        latitude:        42.6286007,
+        longitude:       8.8956365,
+        description:     "Corsica is simply outstanding. You can hike, swim, dive, bike and even more. I stayed in Ile-Rousse for 3 weeks and that was one of the most amazing experiences of my life. I warmly advise you to go hiking and exploring the mountains over there. Despite their reputation, Corsicans are really cool people and if you respect their county, everything will be ok.",
+        visit_date:      "2008-07-01",
+        main_picture_id: 33
+    },
+    {
+        id:              16,
+        name:            "Paris",
+        country:         "France",
+        latitude:        48.8589507,
+        longitude:       2.2775167,
+        description:     "I have been several times in Paris so the date is approximative. I guess I have never travelled in a better city for sightseeing. Any of the museums are fantastic. You have so many different neighborhoods and monuments to explore, you have to come back to fully visit the city.",
+        visit_date:      "2005-12-01",
+        main_picture_id: 36
+    },
+    {
+        id:              17,
+        name:            "Bordeaux",
+        country:         "France",
+        latitude:        44.837789,
+        longitude:       -0.579180,
+        description:     "I used the date when I moved into Bordeaux. It is an incredible city for living. The night activity is pretty intense, you can go to the ocean, go hiking in the Pyrenees, and even more. The city is really clean and a large part of the city was renovated these past few years.",
+        visit_date:      "2011-09-01",
+        main_picture_id: 39
+    },
+    {
+        id:              18,
+        name:            "Dune du Pyla",
+        country:         "France",
+        latitude:        44.590890,
+        longitude:       -1.213399,
+        description:     "An odd huge sand dune near Arcachon. Pretty amazing to climb and the view at the top is pretty outstanding. Unique in Europe.",
+        visit_date:      "2011-09-02",
+        main_picture_id: 42
+    },
+    {
+        id:              19,
+        name:            "Mont Saint-Michel",
+        country:         "France",
+        latitude:        46.780000,
+        longitude:       -75.338092,
+        description:     "Monks built a chapel at the top a tiny mountain, surrounded by the ocean, in the Middle Age. Depending on the time of the day, you can reach the village, otherwise you cannot. A must-see when visiting France.",
+        visit_date:      "2012-07-01",
+        main_picture_id: 43
+    }
+]
+
+pictures = [
+    {
+        id:       33,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/ile-rousse-1.jpg",
+        place_id: 15
+    },
+    {
+        id:       34,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/ile-rousse-2.jpg",
+        place_id: 15
+    },
+    {
+        id:       35,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/ile-rousse-3.jpg",
+        place_id: 15
+    },
+    {
+        id:       36,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/paris-1.jpg",
+        place_id: 16
+    },
+    {
+        id:       37,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/paris-2.jpg",
+        place_id: 16
+    },
+    {
+        id:       38,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/paris-3.jpg",
+        place_id: 16
+    },
+    {
+        id:       39,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/bordeaux-1.jpg",
+        place_id: 17
+    },
+    {
+        id:       40,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/bordeaux-2.jpg",
+        place_id: 17
+    },
+    {
+        id:       41,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/bordeaux-3.jpg",
+        place_id: 17
+    },
+    {
+        id:       42,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/pyla-1.jpg",
+        place_id: 18
+    },
+    {
+        id:       43,
+        url:      "https://raw.githubusercontent.com/acadet/wanderer-stock/master/michel-1.jpg",
+        place_id: 19
+    },
+]
