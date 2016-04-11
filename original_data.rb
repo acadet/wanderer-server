@@ -324,7 +324,7 @@ places = [
         country:         "France",
         latitude:        48.8589507,
         longitude:       2.2775167,
-        description:     "I have been several times in Paris so the date is approximative. I guess I have never travelled in a better city for sightseeing. Any of the museums are fantastic. You have so many different neighborhoods and monuments to explore, you have to come back to fully visit the city.",
+        description:     "I have been several times in Paris so the date is approximative. I guess I have never travelled in a better city for sightseeing. Any of the museums is fantastic. You have so many different neighborhoods and monuments to explore, you have to come back to fully visit the city.",
         visit_date:      "2005-12-01",
         main_picture_id: 36
     },
@@ -352,8 +352,8 @@ places = [
         id:              19,
         name:            "Mont Saint-Michel",
         country:         "France",
-        latitude:        46.780000,
-        longitude:       -75.338092,
+        latitude:        48.6360201,
+        longitude:       -1.5133032,
         description:     "Monks built a chapel at the top a tiny mountain, surrounded by the ocean, in the Middle Age. Depending on the time of the day, you can reach the village, otherwise you cannot. A must-see when visiting France.",
         visit_date:      "2012-07-01",
         main_picture_id: 43
